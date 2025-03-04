@@ -14,6 +14,11 @@ h2 {
     border-color: #ddd;
 }
 
+h1 {
+    font-size: 50px;
+    color: #f7992d;
+}
+
 .topbar {
     display: flex;
     align-items: center;
@@ -79,7 +84,7 @@ h2 {
 .banner {
     width: 100%;
     height: 700px;
-    background-image: url("banner.jpg");
+    background-image: url("images/banner.jpg");
     background-size: 100%;
     background-position: center center;
 }
@@ -87,7 +92,7 @@ h2 {
 .minibanner {
     width: 100%;
     height: 400px;
-    background-image: url("servicebanner.jpeg");
+    background-image: url("images/servicebanner.jpeg");
     background-size: 100%;
     background-position: center center;
 }
@@ -106,13 +111,73 @@ h2 {
     display:wrap;
 }
 
-.service {
-    height: auto;
-    overflow: hidden;
+.service-header {
+    border-color: #ddd;
+    border-width: 2px;
+    border-top-style: solid;
+    align-content: center;
+    height: 300px;
+    width: auto;
+    background-size: contain;
+    background-image: url("images/service.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
-.service img{
-    object-fit: contain;
+.benefits-header {
+    border-color: #ddd;
+    border-width: 2px;
+    border-top-style: solid;
+    align-content: center;
+    height: 300px;
+    width: auto;
+    background-size: contain;
+    background-image: url("images/service.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.testimonial {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     height: auto;
-    width: 100%;
+    margin: 0;
+    border-radius: 40px;
+}
+
+.quote{
+    max-width: 600px;
+    height: auto;
+    margin: 20px 30px;
+    padding: 20px;
+    background-color: #fff3d9;
+    border: 1px solid #c9a457;
+    box-sizing: border-box;
+    border-left-width: 10px;
+    alignt-content: center;
+}
+
+.quoted::before {
+    content: "\201c";
+    font-size: 100px;
+    color: #f0c04f;
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+
+.quote-text{
+    font-style: italic;
+    line-height 1.5;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: #735b2a;
+}
+
+.credit {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    color: #735b2a;
 }
