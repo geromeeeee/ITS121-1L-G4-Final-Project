@@ -160,7 +160,7 @@ h1 {
     background-image: url("images/orderbanner.jpg");
 }
 .burgerjoint {
-    background-image: url("images/burgerjoint.webp");
+    background-image: url("images/burgerjoint.gif");
     background-color: #f7992d;
 }
 
@@ -176,12 +176,12 @@ h1 {
 
 .pizzapalace {
     background-size: 100%;
-    background-image: url("images/pizzapalace.jpg");
+    background-image: url("images/pizzapalace.gif");
     background-color: #f7992d;
 }
 
 .ramenhouse {
-    background-image: url("images/ramenhouse.jpg");
+    background-image: url("images/ramenhouse.gif");
     background-color: #f7992d;
 }
 
