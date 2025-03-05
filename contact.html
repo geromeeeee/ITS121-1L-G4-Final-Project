@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- External CSS stylesheets -->
     <link rel="stylesheet" href="itsprototype.css">
@@ -37,12 +37,10 @@
         </div>
     </div>
 
-    <!-- Contact form section -->
     <section class="contact-form">
         <h2>Contact Us</h2>
 
         <div class="form-container">
-            <!-- Contact form -->
             <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -53,15 +51,12 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" maxlength="1000" placeholder="Type your message here... (max 1000)"></textarea>
 
-                <!-- Preferred contact method selection -->
                 <h3>Preferred Contact Method:</h3>
                 <div class="radio-group">
                     <label><input type="radio" name="contact-method" value="email" required>Email</label>
                     <label><input type="radio" name="contact-method" value="phone">Phone</label>
-                    <label><input type="radio" name="contact-method" value="in-person">In Person</label>
                 </div>
                 <br>
-                <!-- Form buttons -->
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
             </form>
