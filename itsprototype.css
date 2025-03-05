@@ -4,8 +4,13 @@
     font-family: Verdana, sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
+    height: 100%
 }
 
 h2 {
@@ -287,6 +292,7 @@ h1 {
 
 .restaurant {
     position: relative;
+    height: 900px;
 }
 
 .restaurant div:last-child {
@@ -309,6 +315,13 @@ h1 {
     position: relative;
     height: 70px;
     width: 100%;
+}
+
+.rounded {
+}
+
+.rounded img {
+    border-radius: 20px;
 }
 
 /* Blockquote */
@@ -530,7 +543,7 @@ img.standby {
     color: #999;
 }
 
-.prev, .next {
+.gprev, .gnext {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -546,7 +559,7 @@ img.standby {
     -webkit-user-select: none;
 }
 
-.prev:hover, .nex:hover {
+.gprev:hover, .nex:hover {
     background-color: rgba(51, 51, 51, 1);
     -webkit-transition: background-color 300ms linear;
     -ms-transition: background-color 300ms linear;
@@ -554,12 +567,12 @@ img.standby {
 
 }
 
-.prev {
+.gprev {
     left: 20%;
     border-radius: 0 3px 3px 0;
 }
 
-.next {
+.gnext {
   right: 20%;
   border-radius: 3px 0 0 3px;
 }
