@@ -151,16 +151,17 @@ h1 {
     background-image: url("images/servicebanner.jpeg");
 }
 
-.rounded {
-    border-radius: 50px;
-}
-
 .order-banner {
-    background-image: url("images/orderbanner.png");
+    background-image: url("images/orderbanner.jpg");
 }
 .burgerjoint {
     background-image: url("images/burgerjoint.webp");
     background-color: #f7992d;
+}
+
+.about-banner {
+    background-image: url("images/about-banner.jpg");
+
 }
 
 .gallery-banner {
@@ -426,6 +427,21 @@ h1 {
 .col {
     justify-content: center;
     content-align: center;
+    border-radius: 40px;
+    position: relative;
+}
+
+.row {
+    pisition: relative;
+}
+
+.makati {
+    text-align: center;
+}
+
+.makatimap {
+    width: 900px
+    height: auto;
 }
 
 .resto-body {
@@ -441,9 +457,11 @@ h1 {
 .footergrid {
     padding: 20px;
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #f7992d;
+}
+
+.col img {
+    width: 400px;
 }
 
 .footergrid * {
@@ -577,4 +595,42 @@ Lightbox
 
 .lbcolumn img {
     object-fit: cover;
+}
+
+.contactform , .contactinfo {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff3d9;
+    border: 1px solid #c9a457;
+    border-left-width: 10px;
+    border-radius: 20px;
+}
+
+input, textarea {
+    width: 99%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.radiogroup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.contactbutton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contactbutton:hover {
+    background-color: #218838;
 }
